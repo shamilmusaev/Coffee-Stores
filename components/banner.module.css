@@ -1,0 +1,121 @@
+/** By default this is a mobile breakpoint **/
+.container{
+    margin-bottom: 10rem;
+}
+
+.title{
+    letter-spacing: -0.025em;
+    font-weight: 800;
+    color: var(--text-black);
+    font-size: 3rem; /* 48px */
+    line-height: 1;
+    margin-top: 8rem;
+}
+
+.title1{
+    color: rgba(249, 250, 251, 1)
+}
+
+.title2{
+    color: var(--text-purple);
+    margin-left: 0.4rem;
+}
+
+.subTitle{
+    margin-top: 2.5rem;
+    font-size: 1.2rem; /* 24px */
+    line-height: 2rem; /* 32px */
+    color: var(--text-white-100)
+}
+
+
+.button{
+    margin-top: 1.5rem;
+    background-color: var(--text-purple-dark);
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: 0px;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.button:hover{
+    background-color: var(--text-purple-dark);
+}
+
+/* sm breakpoint */
+
+@media (max-width: 640px){
+    .title{
+        font-size: 3rem;
+        line-height: 1;
+        
+    }
+
+    .title1{
+        display: block;
+    }
+
+    .title2{
+        margin-left: 0;
+    }
+
+    .subTitle{
+        margin-top: 1.25rem;
+        max-width: 36rem;
+    }
+}
+
+/* md breakpoint */
+
+@media (min-width: 768px){
+    .title{
+        font-size: 3.75rem;
+        line-height: 1;
+    }
+
+    .subTitle{
+        margin-top: 1.25rem;
+    }
+
+    .button{
+        margin-top: 1rem;
+        padding: 1rem 2.5rem 1rem 2.5rem;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+}
+
+/* lg breakpoint */
+
+@media (min-width: 1024px){
+    
+    .title{
+        font-size: 3.75rem;
+        line-height: 1;
+    }
+
+    .subTitle{
+        margin-top: 1.25rem;
+    }
+
+    .button{
+        margin-top: 1rem;
+        padding: 1rem 2.5rem 1rem 2.5rem;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+}
+
+
+/*
+Breakpoints:
+-----------------
+sm: min-width: 640px; //small device
+md: min-width: 768px; // medium device
+1g: min-width: 1024px; // large device
+xl: min-width: 1280px; // extra large device
+2xl: min-width: 1536px; // 2 x extra large
+*/ 
